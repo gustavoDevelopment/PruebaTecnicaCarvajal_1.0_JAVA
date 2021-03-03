@@ -2,6 +2,7 @@ plugins {
 	id 'org.springframework.boot' version '2.3.10.BUILD-SNAPSHOT'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id 'jacoco'
 }
 
 group = 'com.carvajal.pruebatecnica'
@@ -30,8 +31,24 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	testImplementation 'org.mockito:mockito-inline:3.7.7'    
+    compile group: 'org.junit.platform', name: 'junit-platform-runner', version: '1.7.1'
 }
 
 test {
 	useJUnitPlatform()
 }
+
+
+jacoco {
+  toolVersion = '0.8.4'
+}
+
+jacocoTestReport {
+  reports {
+    html.enabled = true
+    xml.enabled = true
+    csv.enabled = true
+  }
+}
+test.finalizedBy jacocoTestReport
