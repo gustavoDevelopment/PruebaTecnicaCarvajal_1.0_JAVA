@@ -38,7 +38,7 @@ Asumiendo que se cuentan con los programas previamente mencionados para poder ej
 
 ## Autores ✒️
 
-* **Gustavo Adolfo Lopez Mendieta - Shark 426** - *Desarrrollados* - [Hackail](https://github.com/gustavoDevelopment)
+* **Gustavo Adolfo Lopez Mendieta - Shark 426** - *Desarrrollados* - [Shark-426](https://github.com/gustavoDevelopment)
 
 ---
-⌨️ con ❤️ por [Shark426](https://github.com/gustavoDevelopment) 😊
+⌨️ con ❤️ por [Shark-426](https://github.com/gustavoDevelopment) 😊
